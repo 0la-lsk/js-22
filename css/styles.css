@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.clearfix, .clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+
+
+#pattern-test {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+#pattern-test h1 {
+	color: #000;
+	text-align: center;
+}
+#patern-test p,
+#patern-test label {
+	text-align: left;
+}
+#pattern-test p {
+	margin-top: 25px;
+	font-weight: 600;
+}
+.test-answer {
+	display: block;
+	padding: 3px 10px;
+}
+.test-answer input[type="checkbox"] {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+input[type="submit"] {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px 20px;
+}
+
+
+/* modal box */
+.modal-box {
+	position: absolute;
+	top:0;
+	left:0;
+	background: rgba(0,0,0,0.5);
+	height: 100vh;
+	width: 100vw;
+}
+.modal-message {
+	position: relative;
+	width: 55%;
+	min-width: 210px;	
+	height: 10%;
+	min-height: 100px;
+	margin: 10% auto 0 auto;
+	border-radius:3px;
+	background: #FFF;
+	text-align: center;
+	padding-top: 8%;
+}
+.modal-message span {
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	display: inline-block;
+	font-family: Verdana;
+	width: 20px;
+	background: #d5d5d5;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 17px;
+	border-radius: 50%;
+	cursor: pointer;	
+}
